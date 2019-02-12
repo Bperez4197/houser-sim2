@@ -1,33 +1,209 @@
-.App {
-  text-align: center;
+header {
+width: 100%;
+height: 75px;
+background-color: #519872;
+color: #fff;
+font-size: 20px;
+position: fixed;
+top: 0;
+z-index: 1;
+
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
-  pointer-events: none;
+header > h1 {
+  margin-left: 25%;
+  margin-top: 22px;
 }
 
-.App-header {
-  background-color: #282c34;
+
+.dashboard {
+width: 50vw;
+background-color: #e5f4ec;
+
+}
+
+.dash-header {
+  font-size: 40px;
+  color: #3b5249;
+  margin: 20px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.dash-header-button{
+  margin: 20px;
+  background-color: #8aea92;
+  border: none;
+  padding: 10px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.background-div{
+  background-color: #afd4c0;
+  padding-top: 75px;
+  width: 100%;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
-  align-items: center;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
 }
 
-.App-link {
-  color: #61dafb;
-}
+.wizard {
+  width: 50vw;
+  background-color: #e5f4ec;
+  position: relative;
+  }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
+  .house-listings {
+    border-top: 1px solid #000;
+    margin: 0 20px 10px;
   }
-  to {
-    transform: rotate(360deg);
+
+  .allboxes {
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
   }
-}
+
+  .box {
+    height: 200px;
+    width: 33%;
+    background-color: rgb(216, 214, 214);
+    padding: 10px;
+  }
+
+  .box-img {
+    height: 100%;
+    width: 100%;
+  }
+
+  .wizard-header {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    
+  }
+
+  .wizard-header > h3 {
+    font-size: 30px;
+    font-weight: 700;
+  }
+
+  .cancel-button {
+    background-color: #fec2c2;
+    font-weight: 700;
+    font-size: 15px;
+    padding: 7px;
+    border: none;
+  }
+
+  .wiz-input-box {
+    display:flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-left: 20%;
+    font-size: 20px;
+    font-weight: 700;
+  }
+
+  .name-input {
+    width: 25%;
+    border: 1px solid #519872;
+    border-radius: 2px;
+    height: 25px;
+    
+  }
+
+  .address-input {
+    width: 70%;
+    border: 1px solid #519872;
+    border-radius: 2px;
+    height: 25px;
+  }
+
+  .city-input {
+    width: 15%;
+    border: 1px solid #519872;
+    border-radius: 2px;
+    height: 25px;
+    margin-left: 5px;
+    margin-right: 20px;
+  }
+
+  .state-input {
+    width: 7%;
+    border: 1px solid #519872;
+    border-radius: 2px;
+    height: 25px;
+    margin-left: 5px;
+    margin-right: 20px;
+  }
+
+  .zipcode-input {
+    width: 10%;
+    border: 1px solid #519872;
+    border-radius: 2px;
+    height: 25px;
+    margin-left: 5px;
+  }
+
+  .threepiece {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+  }
+
+  .next-step {
+    height: 50px;
+    width: 150px;
+    /* position: absolute; */
+    margin-left: 700px;
+    margin-top: 300px;
+    color: white;
+    background-color: #3B5249;
+    border: none;
+    font-size: 18px;
+  }
+
+  .last-step {
+    margin-left: 150px;
+    color: white;
+    background-color: #3B5249;
+    border: none;
+    font-size: 18px;
+    height: 50px;
+    width: 150px;
+    position: absolute;
+    margin-top: 302px;
+  }
+
+
+  .complete {
+    position:absolute;
+    margin-top: 300px;
+    color: black;
+    font-size: 18px;
+    background-color: #8AEA92;
+    height: 50px;
+    width: 150px;
+    margin-left: 700px;
+    border:none;
+  }
+
+  .img-input {
+    height: 25px;
+    width: 600px;
+    border: 1px solid #519872;
+    border-radius: 2px;
+    
+  }
+
+  .recommended{
+    margin: 0 auto;
+    text-align: center;
+  }
